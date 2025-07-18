@@ -41,7 +41,8 @@ Built as a real-world solution for a business in Australia, this project allows 
 
 ## Folder Structure
 
-```bash project-root/
+``` 
+project-root/
 ├── server/ # Backend Node.js service
 │ ├── index.js # Main server logic
 │ ├── .env # Environment variables
@@ -57,7 +58,6 @@ Built as a real-world solution for a business in Australia, this project allows 
 ├── README.md
 └── package.json
 ```
-
 
 ---
 
@@ -104,9 +104,6 @@ cd src
 npm run dev
 ```
 
-
----
-
 Frontend: http://localhost:5173
 
 Backend: http://localhost:5000
@@ -136,9 +133,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 Sambhav  
-
 GitHub: SAMBHAV-240  
-
 Email: sambhavmangla240@email.com
 
 
