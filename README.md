@@ -41,7 +41,7 @@ Built as a real-world solution for a business in Australia, this project allows 
 
 ## Folder Structure
 
-project-root/
+```bash project-root/
 ├── server/ # Backend Node.js service
 │ ├── index.js # Main server logic
 │ ├── .env # Environment variables
@@ -56,6 +56,8 @@ project-root/
 ├── .gitignore
 ├── README.md
 └── package.json
+```
+
 
 ---
 
@@ -76,76 +78,67 @@ Clone the repository and install dependencies:
 ```bash
 git clone https://github.com/SAMBHAV-240/Dr.Tiles.git
 cd Dr.Tiles
-
+```
 # Install frontend dependencies
+```
 cd src
 npm install
+```
 
 # Install backend dependencies
+```
 cd ../server
 npm install
+```
 
-Usage
+# Usage
 Start the backend:
-bash
-Copy code
+```
 cd server
 node index.js
-Start the frontend:
-bash
-Copy code
+```
+
+# Start the frontend:
+```
 cd src
 npm run dev
-## Folder Structure
-
-``` project-root/
-├── server/ # Backend Node.js service
-│ ├── index.js # Main server logic
-│ ├── .env # Environment variables
-│ └── send_email.js # Email service handler
-│
-├── src/ # Frontend Vite + React + Tailwind
-│ ├── App.tsx
-│ ├── main.tsx
-│ └── components/ # UI components
-│
-├── Cover.png # Project cover image
-├── .gitignore
-├── README.md
-└── package.json
 ```
----
 
-# Frontend: http://localhost:5173
-
-# Backend: http://localhost:5000
 
 ---
 
-### Deployment
+Frontend: http://localhost:5173
+
+Backend: http://localhost:5000
+
+---
+
+## Deployment
 This project is deployed using:
 
-# Frontend: Netlify
+### Frontend: Netlify
 
-# Backend: Render
+### Backend: Render
 
 Each service is configured to automatically deploy from GitHub.
 
 ---
 
-### Contributing
+## Contributing
 If you'd like to contribute, fork the repo and submit a pull request. Bug fixes, feature ideas, and improvements are all welcome.
 
 ---
 
-### License
+## License
 This project is licensed under the MIT License.
 
 ---
 
-### Contact
-Sambhav
-GitHub: SAMBHAV-240
+## Contact
+Sambhav  
+
+GitHub: SAMBHAV-240  
+
 Email: sambhavmangla240@email.com
 
 
